@@ -1,5 +1,5 @@
 import './App.css'
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import React from "react";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
@@ -10,12 +10,6 @@ const App: React.FC = () => {
 
   return (
       <>
-     <header>
-         <Link to="/">Home</Link>
-         <Link to="/profile">Profile</Link>
-         <Link to="/search">Search</Link>
-         <Link to="/chat">Chat</Link>
-     </header>
       <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/profile" element={<Profile/>} />

@@ -1,0 +1,22 @@
+/* styles.module.scss */
+.review {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+}
+
+.stars {
+  color: gold;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.carousel > div {
+  flex: 0 0 100%;
+}
